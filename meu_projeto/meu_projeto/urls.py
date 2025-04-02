@@ -16,8 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from site_institucional import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')), # Importando rotas da app core
+    path('institucional/', views.institucional)
 ]
