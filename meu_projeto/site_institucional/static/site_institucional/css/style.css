@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffac69;
+    color: #333;
+    text-align: center;
+    margin: 50px;
+}
+p {
+    font-size: 15pt;
+    color: #810e0e;
+}
+h1 {
+    font-style: italic;
+}
